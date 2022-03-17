@@ -5,7 +5,7 @@ inputs:
   - {name: Name, type: String, description: 'function name'}
   - {name: Project, type: String, description: 'project name', default: 'default'}
   - {name: Tag, type: String, description: 'function version tag', default: ''}
-  - {name: Dashboard, type: String, description: 'nuclio dashboard service url', default: 'http://localhost:8070'}
+  - {name: Dashboard, type: String, description: 'nuclio dashboard service url', default: 'http://nuclio-dashboard:8070'}
   - {name: Spec, type: String, description: 'override function spec, Json {key: value, ..}', default: ''}
   - {name: Env, type: String, description: 'override function env var, Json {key: value, ..}', default: ''}
   - {name: Mount, type: String, description: 'volume mount, [vol-type:]<vol-url>:<dst-path>', default: ''}
